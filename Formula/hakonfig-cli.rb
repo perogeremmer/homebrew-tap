@@ -1,14 +1,14 @@
 class HakonfigCli < Formula
   desc "Manage AI coding harness provider configs"
   homepage "https://github.com/perogeremmer/hakonfig"
-  version "0.6.5"
+  version "0.6.6"
   license "MIT"
 
   head "https://github.com/perogeremmer/hakonfig.git", branch: "master"
 
   on_macos do
-    url "https://github.com/perogeremmer/hakonfig/releases/download/v0.6.5/hakonfig-cli-universal-apple-darwin"
-    sha256 "6fb1aa77331c0e7fb8d88e7504b394bd1487044ea063ba8a6eb927a3b2e4ba8c"
+    url "https://github.com/perogeremmer/hakonfig/releases/download/v0.6.6/hakonfig-cli-universal-apple-darwin"
+    sha256 "ede6fa4d553fd0ab25cd9a4c56ca7e724aacf97a82f3e99f4548f71d7ee4306f"
 
     def install
       binary = "hakonfig-cli"
@@ -17,8 +17,8 @@ class HakonfigCli < Formula
   end
 
   on_linux do
-    url "https://github.com/perogeremmer/hakonfig/releases/download/v0.6.5/hakonfig-cli-x86_64-unknown-linux-gnu"
-    sha256 "41cb77d9fb02df728c4f647b3669f588cf44df8dbd6f0434662b1867c8251e84"
+    url "https://github.com/perogeremmer/hakonfig/releases/download/v0.6.6/hakonfig-cli-x86_64-unknown-linux-gnu"
+    sha256 "3847f7826363ef287cdb17b8086b28709cbe4100cdd34d30ab21c46c09b45e06"
 
     def install
       binary = "hakonfig-cli"
